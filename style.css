@@ -1964,7 +1964,10 @@ img{ max-width: 100%; height: auto; }
 
 @media (max-width: 480px) {
 
-    .main-head .logo_img.logo-white { height: 120px; }
+    .main-head .logo_img.logo-white { 
+        height: 120px; 
+        transform: translateX(8px);
+    }
     
     .main-head .main-menu .navbar .navlist-right .navlink-btn{
         font-size: 12px;
@@ -2138,4 +2141,5 @@ img{ max-width: 100%; height: auto; }
         font-size: 12px;
     }
 } /* yey done */
+
 
