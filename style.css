@@ -182,6 +182,16 @@
     border-color: #f37f38;
 }
 
+.navlist-item .navlink.active{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+}
+
+.main-head .navlist-item .navlink.active {
+    text-decoration-color: currentColor;
+}
+
 .main-head .main-menu .navbar .logo {
     flex: 0 0 auto;
     margin-top: 55px;          
@@ -2187,4 +2197,5 @@ img{ max-width: 100%; height: auto; }
         font-size: 12px;
     }
 } 
+
 
