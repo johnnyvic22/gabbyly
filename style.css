@@ -1792,7 +1792,7 @@ img{ max-width: 100%; height: auto; }
         object-position: center;
     }
     .pointer-btns img,
-    #prev, #next {
+    #next {
         display: none;
     }
 
@@ -2037,9 +2037,12 @@ img{ max-width: 100%; height: auto; }
     .main-1 .content { 
         padding-top: 220px; 
         font-size: 28px; } 
+    
     .main-2 .textcenter h2 { font-size: 36px; }  
+    
     .m3_img-left { height: 320px; }
     .m3_img-right { height: 420px; } 
+    
     .main-4 .content h2 { font-size: 40px; }
     .main-4 .container{
         margin: 0 auto;
@@ -2197,5 +2200,4 @@ img{ max-width: 100%; height: auto; }
         font-size: 12px;
     }
 } 
-
 
