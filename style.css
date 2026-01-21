@@ -1966,7 +1966,7 @@ img{ max-width: 100%; height: auto; }
 
     .main-head .logo_img.logo-white { 
         height: 120px; 
-        transform: translateX(8px);
+        transform: translateX(12px);
     }
     
     .main-head .main-menu .navbar .navlist-right .navlink-btn{
@@ -2141,5 +2141,6 @@ img{ max-width: 100%; height: auto; }
         font-size: 12px;
     }
 } /* yey done */
+
 
 
