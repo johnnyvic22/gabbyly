@@ -1760,7 +1760,7 @@ img{ max-width: 100%; height: auto; }
         min-height: 520px;
     }
     .about-2 {
-        padding: 48px 0;  /* add vertical breathing room */
+        padding: 48px 0; 
     }
 
     .about-2 .content{
@@ -2141,6 +2141,7 @@ img{ max-width: 100%; height: auto; }
         font-size: 12px;
     }
 } /* yey done */
+
 
 
 
