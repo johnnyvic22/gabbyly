@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title> Contact Us | CasaHorizon </title>
+        <link rel="icon" type="image/x-icon" href="assets/logo_white.svg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <section class="topbar">
+            <div class="topbar-inner">
+                <div class="topbar-right">
+                    <a class="topbar-numb" href="tel:#">+971 50 667 4686 <span class="topbar-sep">|</span> +971 39 441 5032</a>
+                    <span class="topbar-sep">|</span>
+                    <a class="topbar-mail" href="mailto:casahorizon@chsales.com">casahorizon@gmail.com</a>
+                </div>
+            </div>
+        </section>
+        <header class="main-head">
+            <div class="container">
+                <div class="main-menu">
+                    <div class="navbar">
+                        <button class="hamburger" type="button"
+                            aria-label="Open menu"
+                            aria-controls="mobileDrawer"
+                            aria-expanded="false">
+                            <img src="assets/hamburger.svg" alt="hamburger-white" class="hamburger-icon ham-white">
+                            <img src="assets/hamburger_black.svg" alt="hamburger-black" class="hamburger-icon ham-black">
+                        </button>
+                        <div class="logo">
+                            <a href="index.html" class="logo-link">
+                                <img src="assets/logo_white.svg" alt="brand logo" class="logo_img logo-white">
+                                <img src="assets/logo.svg" alt="brand logo" class="logo_img logo-black">
+                            </a>
+                        </div>
+                        <div class="navlist-right">
+                            <ul class="navlist">
+                                <li class="navlist-item">
+                                    <a href="about.html" class="navlink">ABOUT</a>
+                                </li>
+                                <li class="navlist-item">
+                                    <a href="residence.html" class="navlink">RESIDENCES</a>
+                                </li>
+                                <li class="navlist-item">
+                                    <a href="location.html" class="navlink">LOCATION</a>
+                                </li>
+                            </ul>
+                            <a href="form.html" class="navlink-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="drawer">
+            <nav class="mobile-drawer" id="mobileDrawer">
+                <button class="drawer-close" type="button" aria-label="Close menu">
+                  <img src="assets/exit-icon.svg" alt="Close menu">
+                </button>
+              
+                <a href="about.html">ABOUT</a>
+                <a href="residence.html">RESIDENCES</a>
+                <a href="location.html">LOCATION</a>
+            </nav>
+          
+            <div class="drawer-backdrop" id="drawerBackdrop"></div>
+        </div>
+        <section class="form-hero">
+            <!--Hero Only-->
+        </section>
+
+        <section class="contact">
+            <h2 class="title">SECURE YOUR <br> CASAHORIZON PROPERTY</h2>
+            <div class="two-col">
+                <div class="left">
+                    <h3>WHERE TO FIND US</h3>
+                    <p class="line"></p>
+                    <h5>LOCATION</h5>
+                    <p>
+                        CasaHorizon - Lumi Real Estate <br>
+                        Business Bay, Dubai, UAE
+                    </p>
+                    <a href="https://www.google.com/maps?q=Business+Bay+Dubai&output=embed">VIEW GOOGLE MAP</a>
+                    <h5>EMAIL</h5>
+                    <p>casahorizon@gmail.com</p>
+                    <h5>CONTACT NUMBER</h5>
+                    <p>+971 50 667 4686 <br> +971 39 441 5032</p>
+                </div>
+                    <form class="right" id="answerForm">
+                        <h3>INQUIRE</h3>
+                        <p class="line"></p>
+                    
+                        <label for="fn">First Name*</label>
+                        <input id="fn" type="text" required>
+                    
+                        <label for="ln">Last Name*</label>
+                        <input id="ln" type="text" required>
+                    
+                        <label for="em">Email Address*</label>
+                        <input id="em" type="email" required>
+                    
+                        <label for="mb">Contact Number*</label>
+                        <input id="mb" type="tel" required>
+                    
+                        <label for="msg">Remarks*</label>
+                        <textarea id="msg" rows="4" required></textarea>
+                    
+                        <button type="submit">SEND</button>
+                        <p id="message"></p>
+                    </form>
+                </div>
+        </section>  
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-logo">
+                        <img alt="ftr-logo" src="assets/logo_white.svg">
+                    </div>
+                    <nav class="footer col footer-links">
+                        <h4>Links</h4>
+                        <a href="about.html">About</a>
+                        <a href="residence.html">Residences</a>
+                        <a href="location.html">Location</a>
+                    </nav>
+                    <div class="footer col footer-cta">
+                        <h4>Secure your next home<br>with confidence.</h4>
+                        <a class="footer-btn" href="form.html">RESERVE ONLINE</a>
+                    </div>
+                </div>
+                <div class="footer-mid">
+                    <p>casahorizon@chsales.com</p>
+                    <p>+971 50 667 4686 | +971 39 441 503</p>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2026 CasaHorizon - Lumi Real Estate. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <script src="app.js" defer></script>
+    </body>
+</html>
